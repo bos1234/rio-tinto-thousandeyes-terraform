@@ -1,7 +1,11 @@
-resource "thousandeyes_http_server" "rio_http_test" {
-  test_name          = "RioTinto HTTP Server Test"
-  agents             = [9024] # Replace with your actual agent IDs
-  url                = "https://www.example.com"
-  interval           = 300 
-  verify_certificate = true
+data "thousandeyes_agent" "arg_cordoba" {
+  agent_name = "Cordoba, Argentina"
+}
+
+resource "thousandeyes_http_server" "www_thousandeyes_http_test" {
+  test_name      = "Example HTTP test set from Terraform provider"
+  interval       = 120
+  alerts_enabled = false
+  url            = "https://www.thousandeyes.com"
+  agents         = [data.thousandeyes_agent.arg_cordoba.agent_id]
 }
