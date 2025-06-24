@@ -1,0 +1,29 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-agent/3230172
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3230172/network
+  - href: https://api.thousandeyes.com/v7/test-results/3230172/path-vis
+alertsEnabled: false
+bgpMeasurements: false
+createdBy: ThousandEyes (support@thousandeyes.com)
+createdDate: '2022-11-02T04:38:18Z'
+direction: bidirectional
+dscp: Best Effort (DSCP 0)
+dscpId: '0'
+enabled: true
+interval: 120
+liveShare: false
+numPathTraces: 10
+pathTraceMode: classic
+port: 49153
+protocol: tcp
+randomizedStartTime: false
+savedEvent: true
+targetAgentId: '53480'
+testId: '3230172'
+testName: mohan_case_1
+throughputDuration: 10000
+throughputMeasurements: false
+type: agent-to-agent
+usePublicBgp: true

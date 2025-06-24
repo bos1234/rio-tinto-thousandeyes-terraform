@@ -1,0 +1,22 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/dns-trace/4086072
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/4086072/dns-trace
+alertsEnabled: true
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-09-06T00:03:00Z'
+description: Created by ThousandEyes Automator v2.0.29
+dnsQueryClass: in
+dnsTransportProtocol: udp
+domain: teams.microsoft.com A
+enabled: true
+interval: 300
+liveShare: false
+modifiedBy: Alex Bednell (aamaralb@thousandeyes.com)
+modifiedDate: '2023-10-19T15:55:42Z'
+randomizedStartTime: false
+savedEvent: false
+testId: '4086072'
+testName: DNS Trace to Microsoft Teams
+type: dns-trace

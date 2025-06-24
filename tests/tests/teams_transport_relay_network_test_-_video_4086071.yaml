@@ -1,0 +1,37 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-server/4086071
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/4086071/network
+  - href: https://api.thousandeyes.com/v7/test-results/4086071/path-vis
+  - href: https://api.thousandeyes.com/v7/test-results/4086071/bgp
+alertsEnabled: true
+bandwidthMeasurements: false
+bgpMeasurements: true
+continuousMode: false
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-09-06T00:02:58Z'
+description: 'TCP, AF 41 (DSCP 34) - Video
+
+  Created by ThousandEyes Automator v2.0.29'
+dscp: AF 41 (DSCP 34)
+dscpId: '34'
+enabled: true
+interval: 120
+ipv6Policy: use-agent-policy
+liveShare: false
+modifiedBy: Alex Bednell (aamaralb@thousandeyes.com)
+modifiedDate: '2023-10-19T15:55:39Z'
+mtuMeasurements: true
+networkMeasurements: true
+numPathTraces: 3
+pathTraceMode: classic
+probeMode: auto
+protocol: tcp
+randomizedStartTime: false
+savedEvent: false
+server: worldaz.tr.teams.microsoft.com:443
+testId: '4086071'
+testName: Teams Transport Relay Network Test - Video
+type: agent-to-server
+usePublicBgp: true

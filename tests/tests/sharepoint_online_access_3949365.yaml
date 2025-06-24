@@ -1,0 +1,47 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/http-server/3949365
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3949365/http-server
+  - href: https://api.thousandeyes.com/v7/test-results/3949365/network
+  - href: https://api.thousandeyes.com/v7/test-results/3949365/path-vis
+  - href: https://api.thousandeyes.com/v7/test-results/3949365/bgp
+alertsEnabled: true
+allowUnsafeLegacyRenegotiation: true
+authType: none
+bandwidthMeasurements: false
+bgpMeasurements: true
+collectProxyNetworkData: false
+contentRegex: ''
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-08-07T03:10:29Z'
+description: Created by ThousandEyes Automator v2.0.29
+distributedTracing: false
+enabled: true
+followRedirects: false
+httpTargetTime: 1000
+httpTimeLimit: 5
+httpVersion: 2
+interval: 120
+ipv6Policy: use-agent-policy
+liveShare: false
+mtuMeasurements: true
+networkMeasurements: true
+numPathTraces: 3
+overrideAgentProxy: false
+pathTraceMode: in-session
+probeMode: auto
+protocol: tcp
+randomizedStartTime: false
+savedEvent: false
+sslVersion: Auto
+sslVersionId: '0'
+testId: '3949365'
+testName: Sharepoint Online Access
+type: http-server
+url: https://cisco.sharepoint.com
+useNtlm: false
+usePublicBgp: true
+userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+  Chrome/51.0.2704.84 Safari/537.36
+verifyCertificate: true

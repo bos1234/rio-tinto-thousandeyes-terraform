@@ -1,0 +1,19 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/dns-trace/3249879
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3249879/dns-trace
+alertsEnabled: false
+createdBy: ThousandEyes (support@thousandeyes.com)
+createdDate: '2022-11-10T05:02:29Z'
+dnsQueryClass: in
+dnsTransportProtocol: udp
+domain: us.econnect.amat.com A
+enabled: true
+interval: 120
+liveShare: false
+randomizedStartTime: false
+savedEvent: true
+testId: '3249879'
+testName: S-CS-0594932
+type: dns-trace

@@ -1,0 +1,34 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-server/5558317
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/5558317/network
+  - href: https://api.thousandeyes.com/v7/test-results/5558317/path-vis
+  - href: https://api.thousandeyes.com/v7/test-results/5558317/bgp
+alertsEnabled: false
+bandwidthMeasurements: false
+bgpMeasurements: true
+continuousMode: false
+createdBy: ThousandEyes (support@thousandeyes.com)
+createdDate: '2024-07-04T07:08:37Z'
+dscp: Best Effort (DSCP 0)
+dscpId: '0'
+enabled: true
+interval: 300
+ipv6Policy: use-agent-policy
+liveShare: false
+modifiedBy: ThousandEyes (support@thousandeyes.com)
+modifiedDate: '2024-11-21T04:58:55Z'
+mtuMeasurements: true
+networkMeasurements: true
+numPathTraces: 3
+pathTraceMode: classic
+probeMode: auto
+protocol: icmp
+randomizedStartTime: false
+savedEvent: false
+server: 99.10.2.2
+testId: '5558317'
+testName: rio mpls -DSCP0
+type: agent-to-server
+usePublicBgp: true

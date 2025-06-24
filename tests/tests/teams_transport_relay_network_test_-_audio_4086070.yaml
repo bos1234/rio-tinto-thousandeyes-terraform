@@ -1,0 +1,37 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-server/4086070
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/4086070/network
+  - href: https://api.thousandeyes.com/v7/test-results/4086070/path-vis
+  - href: https://api.thousandeyes.com/v7/test-results/4086070/bgp
+alertsEnabled: true
+bandwidthMeasurements: false
+bgpMeasurements: true
+continuousMode: false
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-09-06T00:02:56Z'
+description: 'TCP, EF (DSCP 46) - Audio
+
+  Created by ThousandEyes Automator v2.0.29'
+dscp: EF (DSCP 46)
+dscpId: '46'
+enabled: true
+interval: 120
+ipv6Policy: use-agent-policy
+liveShare: false
+modifiedBy: Alex Bednell (aamaralb@thousandeyes.com)
+modifiedDate: '2023-10-19T15:55:36Z'
+mtuMeasurements: true
+networkMeasurements: true
+numPathTraces: 3
+pathTraceMode: classic
+probeMode: auto
+protocol: tcp
+randomizedStartTime: false
+savedEvent: false
+server: worldaz.tr.teams.microsoft.com:443
+testId: '4086070'
+testName: Teams Transport Relay Network Test - Audio
+type: agent-to-server
+usePublicBgp: true

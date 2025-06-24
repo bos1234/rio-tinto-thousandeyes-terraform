@@ -1,0 +1,22 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/dns-trace/3949711
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3949711/dns-trace
+alertsEnabled: true
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-08-07T05:44:50Z'
+description: Created by ThousandEyes Automator v2.0.29
+dnsQueryClass: in
+dnsTransportProtocol: udp
+domain: cisco.webex.com A
+enabled: true
+interval: 300
+liveShare: false
+modifiedBy: ThousandEyes (support@thousandeyes.com)
+modifiedDate: '2025-02-13T01:59:24Z'
+randomizedStartTime: false
+savedEvent: false
+testId: '3949711'
+testName: DNS Trace to Cisco Webex
+type: dns-trace
