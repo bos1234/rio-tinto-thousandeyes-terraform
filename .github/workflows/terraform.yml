@@ -16,6 +16,9 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
 
+      - name: Print Environment Variables (Debug)
+        run: env
+
       - name: Terraform Init
         run: terraform init
 
@@ -26,4 +29,16 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
-        run: terraform plan -var="change_reason=CI Plan"
+        env:
+          TF_LOG: DEBUG
+          TF_LOG_PATH: terraform-debug.log
+          TF_VAR_thousandeyes_token: ${{ secrets.TE_API_TOKEN }}
+        run: |
+          timeout 300 terraform plan -var="change_reason=CI Plan"
+
+      - name: Upload Terraform Debug Log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: terraform-debug-log
+          path: terraform-debug.log
