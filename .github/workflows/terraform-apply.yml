@@ -22,4 +22,5 @@ jobs:
       - name: Terraform Apply
         env:
           TF_VAR_thousandeyes_token: ${{ secrets.TE_API_TOKEN }}
+          TF_LOG: DEBUG 
         run: terraform apply -auto-approve -var="change_reason=Automated apply from main branch"
