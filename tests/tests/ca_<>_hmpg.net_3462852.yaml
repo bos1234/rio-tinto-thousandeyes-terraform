@@ -1,0 +1,31 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-server/3462852
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3462852/network
+  - href: https://api.thousandeyes.com/v7/test-results/3462852/path-vis
+alertsEnabled: false
+bandwidthMeasurements: false
+bgpMeasurements: false
+continuousMode: false
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-02-05T23:55:25Z'
+dscp: Best Effort (DSCP 0)
+dscpId: '0'
+enabled: true
+interval: 300
+ipv6Policy: use-agent-policy
+liveShare: false
+mtuMeasurements: false
+networkMeasurements: true
+numPathTraces: 3
+pathTraceMode: classic
+probeMode: auto
+protocol: tcp
+randomizedStartTime: false
+savedEvent: true
+server: hmpg.net:80
+testId: '3462852'
+testName: CA <> hmpg.net
+type: agent-to-server
+usePublicBgp: true

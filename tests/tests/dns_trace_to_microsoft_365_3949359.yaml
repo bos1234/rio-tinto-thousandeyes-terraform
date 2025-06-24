@@ -1,0 +1,20 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/dns-trace/3949359
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3949359/dns-trace
+alertsEnabled: true
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-08-07T03:10:17Z'
+description: Created by ThousandEyes Automator v2.0.29
+dnsQueryClass: in
+dnsTransportProtocol: udp
+domain: login.microsoftonline.com A
+enabled: true
+interval: 300
+liveShare: false
+randomizedStartTime: false
+savedEvent: false
+testId: '3949359'
+testName: DNS Trace to Microsoft 365
+type: dns-trace

@@ -1,0 +1,33 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-server/5063013
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/5063013/network
+  - href: https://api.thousandeyes.com/v7/test-results/5063013/path-vis
+alertsEnabled: false
+bandwidthMeasurements: false
+bgpMeasurements: false
+continuousMode: false
+createdBy: ThousandEyes (support@thousandeyes.com)
+createdDate: '2024-03-28T10:55:01Z'
+dscp: Best Effort (DSCP 0)
+dscpId: '0'
+enabled: false
+interval: 300
+ipv6Policy: use-agent-policy
+liveShare: false
+modifiedBy: Alex Bednell (aamaralb@thousandeyes.com)
+modifiedDate: '2025-05-23T14:58:49Z'
+mtuMeasurements: false
+networkMeasurements: true
+numPathTraces: 10
+pathTraceMode: classic
+probeMode: auto
+protocol: icmp
+randomizedStartTime: false
+savedEvent: false
+server: 63.86.100.152
+testId: '5063013'
+testName: test for Dyson
+type: agent-to-server
+usePublicBgp: true

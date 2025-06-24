@@ -1,0 +1,43 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/http-server/7265720
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/7265720/http-server
+  - href: https://api.thousandeyes.com/v7/test-results/7265720/network
+  - href: https://api.thousandeyes.com/v7/test-results/7265720/path-vis
+alertsEnabled: false
+allowUnsafeLegacyRenegotiation: true
+authType: none
+bandwidthMeasurements: false
+bgpMeasurements: false
+collectProxyNetworkData: false
+contentRegex: .*
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2025-06-24T03:40:09Z'
+distributedTracing: false
+enabled: true
+followRedirects: true
+httpTargetTime: 1000
+httpTimeLimit: 5
+httpVersion: 2
+interval: 120
+ipv6Policy: use-agent-policy
+liveShare: false
+mtuMeasurements: true
+networkMeasurements: true
+numPathTraces: 3
+overrideAgentProxy: false
+pathTraceMode: classic
+probeMode: auto
+protocol: tcp
+randomizedStartTime: false
+savedEvent: false
+sslVersion: Auto
+sslVersionId: '0'
+testId: '7265720'
+testName: Example HTTP test set from Terraform provider
+type: http-server
+url: https://www.thousandeyes.com
+useNtlm: false
+usePublicBgp: false
+verifyCertificate: true

@@ -1,0 +1,38 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/agent-to-agent/3949714
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3949714/network
+  - href: https://api.thousandeyes.com/v7/test-results/3949714/path-vis
+  - href: https://api.thousandeyes.com/v7/test-results/3949714/bgp
+alertsEnabled: true
+bgpMeasurements: true
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-08-07T05:44:54Z'
+description: 'BIDIRECTIONAL Agent-to-Agent test to Webex Primary Data Center - Audio
+  (DSCP 46)
+
+  Created by ThousandEyes Automator v2.0.29'
+direction: bidirectional
+dscp: EF (DSCP 46)
+dscpId: '46'
+enabled: true
+interval: 60
+liveShare: false
+modifiedBy: ThousandEyes (support@thousandeyes.com)
+modifiedDate: '2025-02-10T02:46:25Z'
+mss: 200
+numPathTraces: 3
+pathTraceMode: classic
+port: 9000
+protocol: udp
+randomizedStartTime: false
+savedEvent: false
+targetAgentId: '364041'
+testId: '3949714'
+testName: Webex Primary Data Center - Audio
+throughputDuration: 10000
+throughputMeasurements: false
+throughputRate: 64
+type: agent-to-agent
+usePublicBgp: true

@@ -1,0 +1,57 @@
+_links:
+  self:
+    href: https://api.thousandeyes.com/v7/tests/page-load/3949713
+  testResults:
+  - href: https://api.thousandeyes.com/v7/test-results/3949713/http-server
+  - href: https://api.thousandeyes.com/v7/test-results/3949713/page-load
+  - href: https://api.thousandeyes.com/v7/test-results/3949713/network
+  - href: https://api.thousandeyes.com/v7/test-results/3949713/path-vis
+  - href: https://api.thousandeyes.com/v7/test-results/3949713/bgp
+alertsEnabled: true
+allowGeolocation: false
+allowMicAndCamera: false
+allowUnsafeLegacyRenegotiation: true
+authType: none
+bandwidthMeasurements: false
+bgpMeasurements: true
+blockDomains: ''
+browserLanguage: en-US
+contentRegex: ''
+createdBy: Prakash (pganesha@thousandeyes.com)
+createdDate: '2023-08-07T05:44:53Z'
+description: Created by ThousandEyes Automator v2.0.29
+disableScreenshot: false
+distributedTracing: false
+emulatedDeviceId: '1'
+enabled: true
+followRedirects: true
+httpInterval: 120
+httpTargetTime: 1000
+httpTimeLimit: 5
+httpVersion: 2
+includeHeaders: true
+interval: 120
+liveShare: false
+modifiedBy: Prakash (pganesha@thousandeyes.com)
+modifiedDate: '2023-09-06T00:00:32Z'
+mtuMeasurements: true
+networkMeasurements: true
+numPathTraces: 3
+overrideAgentProxy: false
+pageLoadTargetTime: 6
+pageLoadTimeLimit: 10
+pageLoadingStrategy: normal
+pathTraceMode: classic
+probeMode: auto
+protocol: icmp
+randomizedStartTime: false
+savedEvent: false
+sslVersion: Auto
+sslVersionId: '0'
+testId: '3949713'
+testName: Webex Meeting Session Initiation
+type: page-load
+url: https://cisco.webex.com
+useNtlm: false
+usePublicBgp: true
+verifyCertificate: true
