@@ -22,5 +22,13 @@ jobs:
       - name: Terraform Apply
         env:
           TF_VAR_thousandeyes_token: ${{ secrets.TE_API_TOKEN }}
-          TF_LOG: DEBUG 
+          TF_LOG: DEBUG
+          TF_LOG_PATH: terraform-debug.log
         run: terraform apply -auto-approve -var="change_reason=Automated apply from main branch"
+
+      - name: Upload Terraform Debug Log
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: terraform-debug-log
+          path: terraform-debug.log
